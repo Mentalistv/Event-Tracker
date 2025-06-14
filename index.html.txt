@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Event & Birthday Tracker</h1>
+    
+    <form id="event-form">
+      <input type="date" id="date" required>
+      <input type="text" id="title" placeholder="Event Title" required>
+      <textarea id="description" placeholder="Description (optional)"></textarea>
+      <button type="submit">Add Event</button>
+    </form>
+
+    <hr>
+
+    <h2>📅 Upcoming Events</h2>
+    <ul id="event-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
